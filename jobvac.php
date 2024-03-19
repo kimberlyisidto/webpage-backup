@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <title>CAGAYAN DE ORO COLLEGE - PHINMA EDUCATION</title> 
-     <link rel="stylesheet" href="aboutstyle.css" />   
+     <link rel="stylesheet" href="jobvac.css" />   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
 
 
@@ -24,103 +24,110 @@
         
         <style>
         
-        header {
-               height: 120px; /* Adjust the height as needed */
-               width: 100%;
-               background-color: #ffffff;
-               box-shadow: 0 10px 12px 0px #e1e1e1; /* Bottom box-shadow */
-               position: fixed;
-               top: 0;
-               left: 0;
-               z-index: 999; /* Ensure navbar is on top */
-           }
-   
-           .main {
-               width: 90%;
-               margin: 0 auto;
-               display: flex;
-               align-items: center;
-               justify-content: space-between;
-           }
-   
-   header img {
-       margin-top: 100px;
-       float: left;
-       width: 320px;
-       margin-left: -3%;
-   }
-   
-   .page-title {
-       font-size: 23px;
-       float: center; 
-       margin-left: 8%;
-       margin-top: 80px;
-       color: rgb(21, 104, 21);
-       letter-spacing: 2px;
-       text-shadow: 0px 11px 10px rgba(81,67,21,0.8);
-       margin-bottom: 0%;
-       margin-right: 10px;
-       white-space: nowrap;
-   }
-   
-   .menu {
-       width: 400px;
-       float: left; 
-       margin-top: 180px;
-       height: -1px;
-       padding: 10pv;
-   
-   }
-   
-   ul {
-       float: left;
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       margin-left: -50%;
-       
-       
-   }
-   
-   ul li {
-       list-style: none;
-       margin-left: 80px;
-       margin-top: 27px;
-       font-size: large;
-       white-space: nowrap;
-       z-index: 5;
-   }
-   
-   ul li a {
-       text-decoration: none;
-       color: #000000;
-       font-family: Andale Mono, monospace; 
-       font-weight: lighter;
-       transition: 0.5s ease-in-out;
-       font-weight: bold; 
-       
-   } 
-   
-   .menu ul li a:hover {
-      
-       color: green /* Adjust the text color on hover */
-   }
-   
-   
-   .active {
-       color: rgb(211, 211, 94); 
-       text-shadow: 1px 1px 1px rgb(0, 0, 0);
-       z-index: 5;
-   }
-   
-           body {
-               margin: 0;
-               padding-top: 100px; /* Adjust according to navbar height */
-             
-           background-color: rgb(247,247,247);
-           }
 
-           
+        <style>
+    * {
+    margin: 0;
+    padding: 0v;
+    width: 100%;
+}
+
+
+.main {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    box-shadow: 0 10px 12px 0px #e1e1e1; /* Bottom box-shadow */
+    position: fixed;
+    height: 120px; /* Adjust the height as needed */
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+header img {
+margin-top: 8px;
+float: left;
+width: 320px;
+margin-left: 2%;
+}
+
+
+
+.page-title {
+font-size: 23px;
+float: center; 
+margin-left: 5.7%;
+margin-top: -2.5%;
+color: rgb(21, 104, 21);
+letter-spacing: 2px;
+text-shadow: 0px 11px 10px rgba(81,67,21,0.8);
+margin-bottom: 0%;
+margin-right: 10px;
+white-space: nowrap;
+}
+
+.menu {
+width: 400px;
+float: left; 
+margin-top: 4%;
+height: -1px;
+padding: 10pv;
+
+}
+
+ul {
+float: left;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: -78.2%;
+
+
+}
+
+ul li {
+list-style: none;
+margin-left: 80px;
+margin-top: 27px;
+font-size: large;
+white-space: nowrap;
+z-index: 5;
+}
+
+ul li a {
+text-decoration: none;
+color: #000000;
+font-family: Andale Mono, monospace; 
+font-weight: lighter;
+transition: 0.5s ease-in-out;
+font-weight: bold; 
+
+} 
+
+.menu ul li a:hover {
+
+color: green /* Adjust the text color on hover */
+}
+
+
+.active {
+color: rgb(211, 211, 94); 
+text-shadow: 1px 1px 1px rgb(0, 0, 0);
+z-index: 5;
+}
+
+body {
+    margin: 0;
+    padding-top: 100px; /* Adjust according to navbar height */
+  
+background-color: rgb(247,247,247);
+}
+
 
 .section {
     display: flex;
@@ -177,13 +184,7 @@
     }
     
         
-header {
-    background: #ffffff;
-    padding: 2px 0; /* Adjusted padding */
-    margin-bottom: 2px; /* Adjusted margin-bottom */
-    margin: 0v;
 
-}
 
 .job {
     
@@ -231,7 +232,7 @@ header {
         .vaclist {
     border-radius: 2px;
     margin-top: 2%;
-    width: calc(33.31% - 35px);
+    width: calc(32.31% - 17px);
     height: 50%;
     box-sizing: border-box;
     padding: 30px;
@@ -242,7 +243,7 @@ header {
     display: inline-block;
     vertical-align: top;
     background-color: rgb(199, 206, 199);
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .vaclist:hover {
             transform: translateY(-10px);
@@ -276,12 +277,8 @@ header {
     
     
     }
-
-
         
     </style>
-
-
 
 
     <body>
